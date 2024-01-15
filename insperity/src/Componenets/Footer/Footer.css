@@ -85,6 +85,27 @@ footer ul li a:hover{
     display: flex;
     gap: 6rem;
 }
+.credits{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    position: absolute;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    gap: 0.5rem;
+    color: hsl(60, 1%, 14%);
+    font-weight: 600;
+}
+.credits a{
+    text-decoration: none;
+    color: hsl(22, 94%, 69%);
+}
+.credits a:hover{
+    color: hsl(14, 98%, 57%);
+    cursor: pointer;
+}
 
 
 @media screen and (max-width:768px) {
