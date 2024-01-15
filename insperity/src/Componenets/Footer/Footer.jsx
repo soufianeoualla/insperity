@@ -57,7 +57,9 @@ const Footer = () => {
                 </ul>
             </div>
         </div>
-        
+         <div className="credits">
+            UI Design by <a href="https://dribbble.com/attabur3262">Sheikh Attabur</a>
+        </div>
         
     </footer>
   )
